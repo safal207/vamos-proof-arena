@@ -1,0 +1,8 @@
+# VALTA-038 First Contact
+Release source: VALTA-037 HTML blob abb0e54f5ba719ea5f8a870a067e3c699262b1c9. Previous gh-pages blob 866928c5a6797a092ca3ce9105ef225f4134e775. Updated gh-pages/index.html in commit 369d4ff6b1a87d420a7307d81d773ab7c67e9001; verified blob identical. No main changes.
+
+Fresh local Chromium Playwright regression, 320 RU, 390 ZH, 820 EN: three full seasons (18 proofs), first-proof direct handoff, correct link, repeated click first timestamp, language switch preserves game state, optional five-step practice without extra credits, hidden S-B-E-P route cost 5, pasted optimal agent response, reset clears journey. Zero page errors or HTTP requests (navigation deliberately prevented during test). Mobile handoff no horizontal overflow. No physical touch, other browsers or live calls tested.
+
+External fetch on 2026-11-27 confirms official https://valta.co/docs/guides/proxy-setup is reachable and describes setup with free Valta account and OpenAI key; a denial needs no provider credit, approved calls do. No authenticated operations performed. Public Pages URL reachable but returned prior VAMOS Proof Arena version immediately after branch update; new version not yet externally confirmed at time of this record. Do not send as updated public release until verified.
+
+Founder review: compare direct corrected proxy onboarding against game-first with same subsequent flow. Primary metric is verified first successful proxy call within seven days, secondary verified policy denial. No experimental conversion measured. Request founder review of the flow, sandbox and telemetry. No outreach sent.
