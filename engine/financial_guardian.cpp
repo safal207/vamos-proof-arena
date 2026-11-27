@@ -94,4 +94,5 @@ int main(){try{
         q=p;q[0].event.id++;check(!verify(caps,t,q),"modified request identity");negative+=5;
     }
     std::cout<<"PASS 9 fixture checks; 1000 traces; "<<events<<" events; "<<negative<<" negative proof checks\n";
+    return 0;
 }catch(const std::exception& e){std::cerr<<"FAIL "<<e.what()<<'\n';return 1;}}
