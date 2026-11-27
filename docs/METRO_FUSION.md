@@ -11,7 +11,7 @@ cmake --build build
 ctest --test-dir build --output-on-failure
 ```
 
-The new source was actually compiled and executed directly with GCC 14.2.0, OpenSSL 3.5.7, -Wall -Wextra -Wpedantic -Werror and AddressSanitizer/UndefinedBehaviorSanitizer; exit 0. Tested Git blob: 54d93f1789573e3feb722fc24e06c9c54b2a6472. CMake/CTest integration and GitHub CI have not been executed for this revision.
+The new source was actually compiled and executed directly with GCC 14.2.0, OpenSSL 3.5.7, -Wall -Wextra -Wpedantic -Werror and AddressSanitizer/UndefinedBehaviorSanitizer; exit 0. Tested Git blob: 54d93f1789573e3feb722fc24e06c9c54b2a6472. Follow-up local full CMake/CTest run with VAMOS_METRO_FUSION=ON and -Werror: GCC 14.2.0, OpenSSL 3.5.7, all three targets compiled and 3/3 CTest tests passed (verifier, transition_memory, metro_fusion). The four build/source Git blob hashes were matched to the branch before running. All reported experiment totals reproduced exactly. GitHub CI has not been executed for this revision.
 
 ## Experiment
 
